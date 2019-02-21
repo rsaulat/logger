@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "logger\Logger.csproj", "{0ADED76B-3AFC-4D84-90FE-E458F78E02E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerWindowsService", "LoggerWindowsService\LoggerWindowsService.csproj", "{10BEF3C1-CDC9-4FA1-8539-9A988AAA6B8B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WinServiceInstaller", "WinServiceInstaller\WinServiceInstaller.vdproj", "{CB38C5DC-4BAB-4EC3-882A-BD3E13ECE4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{92689C57-D2EC-4EA3-BEDF-AA6896899204}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ExeInstaller", "ExeInstaller\ExeInstaller.vdproj", "{F891C633-63B7-48E6-B167-D85256DB4996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerWindowsApp", "LoggerWindowsApp\LoggerWindowsApp.csproj", "{277240FF-73D2-46BB-AC01-40341ACCCCDE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "APIPackageInstaller", "APIPackageInstaller\APIPackageInstaller.vdproj", "{DDA2A623-4D67-4195-B24C-B8DB83C557E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ADED76B-3AFC-4D84-90FE-E458F78E02E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADED76B-3AFC-4D84-90FE-E458F78E02E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADED76B-3AFC-4D84-90FE-E458F78E02E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADED76B-3AFC-4D84-90FE-E458F78E02E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BEF3C1-CDC9-4FA1-8539-9A988AAA6B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BEF3C1-CDC9-4FA1-8539-9A988AAA6B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BEF3C1-CDC9-4FA1-8539-9A988AAA6B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BEF3C1-CDC9-4FA1-8539-9A988AAA6B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB38C5DC-4BAB-4EC3-882A-BD3E13ECE4AE}.Debug|Any CPU.ActiveCfg = Debug
+		{CB38C5DC-4BAB-4EC3-882A-BD3E13ECE4AE}.Release|Any CPU.ActiveCfg = Release
+		{92689C57-D2EC-4EA3-BEDF-AA6896899204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92689C57-D2EC-4EA3-BEDF-AA6896899204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92689C57-D2EC-4EA3-BEDF-AA6896899204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92689C57-D2EC-4EA3-BEDF-AA6896899204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F891C633-63B7-48E6-B167-D85256DB4996}.Debug|Any CPU.ActiveCfg = Debug
+		{F891C633-63B7-48E6-B167-D85256DB4996}.Release|Any CPU.ActiveCfg = Release
+		{277240FF-73D2-46BB-AC01-40341ACCCCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277240FF-73D2-46BB-AC01-40341ACCCCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277240FF-73D2-46BB-AC01-40341ACCCCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277240FF-73D2-46BB-AC01-40341ACCCCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA2A623-4D67-4195-B24C-B8DB83C557E4}.Debug|Any CPU.ActiveCfg = Debug
+		{DDA2A623-4D67-4195-B24C-B8DB83C557E4}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEA8CDD5-669F-4B15-B7E2-D12D8C9528F9}
+	EndGlobalSection
+EndGlobal
